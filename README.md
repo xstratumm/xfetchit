@@ -1,6 +1,6 @@
 <p align="center"><img src="logo.png"></p>
 
-# xfetchit
+# About
 xfetchit is the python-written parser of phone numbers in VK groups.
 
 ## Installation
