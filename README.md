@@ -39,8 +39,8 @@ python3 parser.py
 - **xstratumm**
 
 You can find me here:
-[VK](https://vk.com/xstratumm)
-[Twitter](https://twitter.com/xstratumm)
+- [VK](https://vk.com/xstratumm)
+- [Twitter](https://twitter.com/xstratumm)
 
 ## Donate
 
