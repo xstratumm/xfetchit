@@ -93,6 +93,9 @@ def groupParse(group_id):
         count = r["response"]["count"]
         parsed = []
 
+        for user in users:
+            parse(user, parsed)
+
         if count >= 1000:
             left = count - len(users)
 
@@ -103,14 +106,8 @@ def groupParse(group_id):
                 for user in r["response"]["items"]:
                     parse(user, parsed)
 
-                for user in users:
-                    parse(user, parsed)
-
             else:
                 offset = 0
-
-                for user in users:
-                    parse(user, parsed)
 
                 while left >= 1000:
                     offset += 1000
@@ -129,8 +126,7 @@ def groupParse(group_id):
                     parse(user, parsed)
 
         else:
-            for user in users:
-                parse(user, parsed)
+            pass
 
         cls()
 
