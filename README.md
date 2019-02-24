@@ -12,7 +12,13 @@ xfetchit is the python-written parser of phone numbers in VK groups.
 pip install requests
 ```
 
-For Linux use pip3 instead of pip.
+- Install colorama the same way:
+
+```
+pip install colorama
+```
+
+**For Linux use pip3 instead of pip.**
 
 ## Configuration
 - Open "config.py" and insert your VK page or group token there.
