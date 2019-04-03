@@ -12,7 +12,7 @@ __  _| |_ ___| |_ ___| |__  _| |_
 \ \/ /  _/ _ \ __/ __| '_ \| | __|
  >  <| ||  __/ || (__| | | | | |_
 /_/\_\_| \___|\__\___|_| |_|_|\__|
-v1.1                     xstratumm
+v1.2                     xstratumm
 """
 
 intro = """
@@ -29,7 +29,7 @@ def cls():
 def donate():
     wallets = """
 I will be very grateful for any crypto from you,
-thx! :з
+thx! :3
 
 BTC 1HzA8mZxksDGNuTMu5sKUottp9S8bv9NKA
 
@@ -69,7 +69,10 @@ def parse(user, parsed):
         pass
 
     else:
-        parsed.append(user["mobile_phone"])
+        user = user["mobile_phone"]
+
+        if user[0] == "7" or user[0] == "8" or user[0] == "+":
+            parsed.append(user)
 
 def groupParse(group_id):
     r = requests.get(LINK + "groups.getMembers",
@@ -124,9 +127,6 @@ def groupParse(group_id):
 
                 for user in r["response"]["items"]:
                     parse(user, parsed)
-
-        else:
-            pass
 
         cls()
 
