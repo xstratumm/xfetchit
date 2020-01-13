@@ -23,8 +23,6 @@ pip install colorama
 ## Configuration
 - Open "config.py" and insert your VK page or group token there.
 
-Don't worry, it's safe, because xfetchit doesn't give your token to anyone.
-
 Guide about getting token: https://bit.ly/2sdI8VQ
 
 ## Launch
@@ -67,8 +65,3 @@ If you want to thank me, here are my crypto wallets:
 - QTUM QeQ9SaJEHJ9uR2Apa9ymonfpAudnamBUuY
 
 - TRX TKojkeYBDY74ghqrFrj9dTWziw6y2Mh1CN
-
-- GNT 0xe9a30E9c2aa2D72c224e771c316aE9a7F4fdE36A
-
-If there's no some cryptocurrency in this list,
-but you really want to thank me, pls contact (links are upper).
