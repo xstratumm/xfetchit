@@ -1,7 +1,7 @@
 <p align="center"><img src="logo.png"></p>
 
 # About
-xfetchit is the python-written parser of phone numbers in VK groups.
+xfetchit parses phone numbers of users in VK groups.
 
 ## Installation
 - Download and install Python 3.6+ from [here](https://python.org/downloads).
