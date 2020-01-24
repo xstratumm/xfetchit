@@ -43,6 +43,7 @@ python3 parser.py
 - **xstratumm**
 
 You can find me here:
+- [Mastodon](https://mastodon.technology/@xstratumm)
 - [VK](https://vk.com/xstratumm)
 - [Twitter](https://twitter.com/xstratumm)
 
