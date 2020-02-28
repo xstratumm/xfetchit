@@ -4,7 +4,7 @@
 xfetchit parses phone numbers of users in VK groups.
 
 ## Installation
-- Download and install Python 3.6+ from [here](https://python.org/downloads).
+- Download and install Python 3 from [here](https://python.org/downloads).
 
 - Install requests Python library:
 
